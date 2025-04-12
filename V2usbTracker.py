@@ -27,7 +27,7 @@ class USBTrackerApp:
         self.add_usb_button = tk.Button(root, text="Add USB", command=self.add_usb)
         self.add_usb_button.pack(side=tk.TOP, fill="both", expand=True, padx=250, pady=10)
         
-        self.png_image = tk.PhotoImage(file="Cloud5.png")
+        self.png_image = tk.PhotoImage(file="<logo>")
         self.image_label = tk.Label(root, image=self.png_image)
         self.image_label.pack(side=tk.BOTTOM, fill="both", expand=True, padx =10)
         
